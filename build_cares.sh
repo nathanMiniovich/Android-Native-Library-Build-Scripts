@@ -33,6 +33,6 @@ function buildLibs(){
 buildLibs aarch64 aarch64-linux-android-4.9 aarch64-linux-android -march=armv8-a+crc
 buildLibs androideabiv7a arm-linux-androideabi-4.9 arm-linux-androideabi -march=armv7-a
 buildLibs androideabi arm-linux-androideabi-4.9 arm-linux-androideabi "-minline-thumb1-jumptable -march=armv5te"
-buildlibs mips mipsel-linux-android-4.9 mipsel-linux-android -g
-buildlibs x86_64 x86_64-4.9 x86_64-linux-android -g
-buildlibs x86 x86-4.9 i686-linux-android -g
+buildLibs mips mipsel-linux-android-4.9 mipsel-linux-android -g
+buildLibs x86_64 x86_64-4.9 x86_64-linux-android -g
+buildLibs x86 x86-4.9 i686-linux-android -g
