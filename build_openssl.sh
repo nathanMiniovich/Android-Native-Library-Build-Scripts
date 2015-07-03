@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#It is recommended to isntall this patch: http://www.linuxfromscratch.org/blfs/view/svn/postlfs/openssl.html
+#It is recommended to install this patch: http://www.linuxfromscratch.org/blfs/view/svn/postlfs/openssl.html
 
 export NDK= (add ndk path here)
 
