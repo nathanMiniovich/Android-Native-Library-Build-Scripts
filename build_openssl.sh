@@ -20,7 +20,7 @@ function buildLibs(){
          # Configure
          mkdir -p openssl-android-archs/build_$1 && cd openssl-1.0.2c
          ./Configure $5 no-shared no-thread -fPIC -DOPENSSL_PIC --prefix=$(pwd)/../openssl-android-archs/build_$1 
-#        CFLAGS="$4" "REMOVED" C-flags cause a conflict with with android architecture packages when runningin configure
+#        CFLAGS="$4" "REMOVED" C-flags cause a conflict with with android architecture packages when running configure
 
          # Build and install
          make clean
